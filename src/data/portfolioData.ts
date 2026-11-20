@@ -18,6 +18,7 @@ export const aboutData = {
   zipcode: "251305",
   Email: "ervikastomar0@gmail.com",
   Phone: "+91-9759585552",
+  project: "6"
 };
 
 export const socialLinks = {
