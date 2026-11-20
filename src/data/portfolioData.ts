@@ -4,7 +4,8 @@ import {
   Mail, 
   Globe, 
   MessageCircle, 
-  Instagram 
+  Instagram,
+  Linkedin
 } from 'lucide-react';
 
 export const aboutData = {
@@ -185,13 +186,13 @@ export const contactDetails: ContactDetailItem[] = [
     link: "https://www.instagram.com/vikastomar000/",
     actionText: "Visit Instagram Profile"
   },
-  // {
-  //   label: "Address & Location",
-  //   text: "Gogwan Jalalpur, ThanaBhawan, Shamli (251305), India",
-  //   icon: MapPin,
-  //   link: "https://maps.google.com/?q=Uttar+Pradesh+India",
-  //   actionText: "View on Google Maps"
-  // },
+  {
+    label: "LinkedIn",
+    text: "vikas-tomar-807649242",
+    icon: Linkedin,
+    link: "https://www.linkedin.com/in/vikas-tomar-807649242",
+    actionText: "Connect on LinkedIn"
+  },
 ];
 
 export interface ProjectItem {
